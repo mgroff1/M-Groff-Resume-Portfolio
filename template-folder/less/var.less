@@ -1,0 +1,30 @@
+.btn-style (@bg, @tc) {
+  background-color: @bg;
+  color: @tc;
+}
+
+@color-p: rgba( 25, 78, 65,.8); 	/* Main Primary color */
+@color-p1: rgba( 57,136,116,1);
+@color-p2: rgba( 39,117, 98,.7);
+@color-p3: rgba( 12, 59, 47,1);
+@color-p4: rgba(  7, 36, 29,.7);
+@gold: lightgoldenrodyellow;
+@color-s: rgba(121, 69, 39, .7); /* Main Complement color */
+@color-s1: rgba(207,131, 86,.8);
+@color-s2: rgba(179,103, 58,.7);
+@color-s3: rgba( 89, 43, 16,1);
+@color-s4: rgba( 54, 26, 10,1);
+
+@bg-color:@color-p;
+@pup-color:@color-s1;
+@btn-color:rgba(0,0,0,.1);
+.shadow(@col, @one,@two){
+  box-shadow:@one,@two,@two,@one,@col;
+}
+
+.f-size(@col,@size){
+  color:@col;
+  font-size:@size;
+}
+
+@phone: ~"(max-width: 500px)";

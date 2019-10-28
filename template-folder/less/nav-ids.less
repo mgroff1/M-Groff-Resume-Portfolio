@@ -1,0 +1,75 @@
+@import "var";
+
+
+.contain {
+  position:absolute;
+  margin-bottom:0;
+  align-self: center;
+  padding:12px;
+  top:15vh;
+  left:50%;
+  margin-left:-210px;
+  width:420px;
+  height:80vh;
+  border:1px inset @color-s2;
+  background:@color-s2;
+  border-radius:3px;
+  box-shadow:2px 5px 6px 1px white, -2px -5px 6px -1px white;
+  display:none;
+  z-index: 3;
+  #intro {
+    z-index: 3;
+  }
+  #work{
+    z-index: 3;
+  }
+  #about{
+    z-index: 3;
+  }
+  #contact{
+    z-index: 3;
+  }
+
+}
+
+div .slide{
+  position: absolute;
+  display:none;
+  max-width:400px;
+  width:400px;
+  justify-content: space-between;
+  //flex-direction: column;
+
+  div .imag{
+    position: relative;
+    max-width:150px;
+    max-height:150px;
+    margin-right:5px;
+
+  }
+  div p{
+    position: absolute;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    text-align:left;
+    font-size:1.7rem;
+    text-shadow: -4px 1px 3px @color-p;
+  }
+}
+
+.a-2{
+  position: relative;
+  text-align: center;
+  top:-5px;
+}
+.a-2-bottom{
+  position: relative;
+ margin-top:420px;
+}
+.info{
+  display:none;
+}
+
+.test{
+  display:block;
+}
+
