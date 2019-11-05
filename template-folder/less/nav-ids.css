@@ -1,0 +1,28 @@
+/* Main Primary color */
+/* Main Complement color */
+html,
+body,
+div,
+ul,
+li,
+img,
+article {
+  overflow-y: scroll;
+}
+.contain {
+  position: relative;
+  padding: 12px;
+  top: -80vh;
+  left: 0;
+  margin: auto auto auto auto;
+  width: 80vw;
+  height: 80vh;
+  border: 1px inset rgba(179, 103, 58, 0.7);
+  background: rgba(179, 103, 58, 0.7);
+  border-radius: 3px;
+  box-shadow: 2px 5px 6px 1px white, -2px -5px 6px -1px white;
+  display: none;
+  z-index: 3;
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=nav-ids.css.map */
