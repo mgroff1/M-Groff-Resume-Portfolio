@@ -1,0 +1,202 @@
+
+@media(max-width:600px){
+    body{
+        overflow: visible;
+    }
+    .main {
+        width:25vw;
+        background:black;
+    }
+    .main #cover {
+    }
+    .main . {
+    }
+    .main .main .container {
+        background:black;
+    }
+    .main #shadow {
+    }
+    .main #shadow.main .round {
+    }
+    .main .name-wrap {
+    }
+    .main .name-wrap h3 {
+    }
+    .main .logo-wrap {
+    }
+    .main .logo {
+    }
+    .main .main-sec{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .main .nav-box {
+    }
+    .main .main-nav {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .main .main-nav-li {
+        min-width:80%;
+        width:80%;
+        margin:10px;
+    }
+    .main .main-nav-li a {
+    }
+    .main section {
+    }
+    .main .articles {
+    }
+    .main .contain {
+    }
+    .main #intro {
+    }
+    .main #intro.main #intro.main #intro .a-2 {
+    }
+    .main #intro .img-article {
+    }
+    .main #intro .img-article.main #intro .p-info {
+    }
+    .main #intro br {
+    }
+    .main #work {
+    }
+    .main #work.main #work.main .next {
+    }
+    .main .a-2 {
+    }
+    .main #p1-work {
+    }
+    .main #p1-work h3 {
+    }
+    .main #p1-work .p-info {
+    }
+    .main #p1-work br {
+    }
+    .main #p1-work a {
+    }
+    .main .slideshow {
+    }
+    .main #p1 {
+    }
+    .main #p1.main #p1 div {
+    }
+    .main #p1 .imag {
+    }
+    .main #p1 .explain {
+    }
+    .main #p1 .p-info {
+    }
+    .main #p2 {
+    }
+    .main #p2.main #p2 div {
+    }
+    .main #p2 .imag {
+    }
+    .main #p2 .explain {
+    }
+    .main #p2 .p-info {
+    }
+    .main #p3 {
+    }
+    .main #p3.main #p3 div {
+    }
+    .main #p3 .imag {
+    }
+    .main #p3 .explain {
+    }
+    .main #p3 .p-info {
+    }
+    .main #p4 {
+    }
+    .main #p4.main #p4 div {
+    }
+    .main #p4 .imag {
+    }
+    .main #p4 .explain {
+    }
+    .main #p4 .p-info {
+    }
+    .main #p5 {
+    }
+    .main #p5.main #p5 div {
+    }
+    .main #p5 .imag {
+    }
+    .main #p5 .explain {
+    }
+    .main #p5 .p-info {
+    }
+    .main #p6 {
+    }
+    .main #p6.main #p6 div {
+    }
+    .main #p6 .imag {
+    }
+    .main #p6 .explain {
+    }
+    .main #p6 .p-info {
+    }
+    .main #p7 {
+    }
+    .main #p7.main #p7 div {
+    }
+    .main #p7 .imag {
+    }
+    .main #p7 .explain {
+    }
+    .main #p7 .p-info {
+    }
+    .main #p8 {
+    }
+    .main #p8.main #p8 div {
+    }
+    .main #p8 .imag {
+    }
+    .main #p8 .explain {
+    }
+    .main #p8 .p-info {
+    }
+    .main .a-2-bottom {
+    }
+    .main #about {
+    }
+    .main #about.main #about.main #about .a-2 {
+    }
+    .main #about .img-article {
+    }
+    .main #about .img-article.main #about .p-info {
+    }
+    .main #contact {
+    }
+    .main #contact.main #contact.main #contact .a-2 {
+    }
+    .main iframe {
+    }
+    .main .icon-wrapper {
+    }
+    .main .icons {
+    }
+    .main .icons li {
+    }
+    .main .icons a {
+    }
+    .main img {
+    }
+
+    .page{
+        display:flex;
+        flex-direction: column;
+        justify-items: stretch;
+        justify-content: space-around;
+    }
+}
+
+*{
+    overflow:visible!important;
+}
+
+

@@ -13,6 +13,7 @@
 
 	<link rel = "stylesheet" href="css/filler.css" type="text/css">
 	    <link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" href="css/media_phone.css" type="text/css">
 </head>
 <body class="body">
 
@@ -36,33 +37,34 @@
 <section class="main-sec">
 	<div class="nav-box">
 		<ul class="main-nav">
-			<li><a data-match = "1" href="#intro">Intro</a></li>
-			<li><a data-match = "2" href="#work">Projects</a></li>
-			<li><a data-match = "3" href="#about">About</a></li>
-			<li><a data-match = "4" href="#contact">Contact</a></li>
+			<li class="main-nav-li"><a data-match = "1" href="#intro">Intro</a></li>
+			<li class="main-nav-li"><a data-match = "2" href="#work">Projects</a></li>
+			<li class="main-nav-li"><a data-match = "3" href="#about">About</a></li>
+			<li class="main-nav-li"><a data-match = "4" href="#contact">Contact</a></li>
 		</ul>
 	</div>
 </section>
-    <section>
+    <section class="page">
 <div class="articles">
 	<div class="contain">
 				<!--Intro-->
 		<article data-match="1" id="intro" class="one info">
-			<button class="close">X</button>
+			<div class="img-intro">
 			<h2 class="a-2">Intro</h2>
-			<span class="img-article img-intro"></span>
-			<p>Ive been working with Html, Css, and Javascript for about a year and a half now,
+
+			<p class = "p-info p-intro">Ive been working with Html, Css, and Javascript for about a year and a half now,
 				I have a love for it and that drives me to keep learning.
 				I do have a bachelors in electronic engineering which durring my schooling
 				I worked with machine code PLC's, and programming the Arduino to make make
 				my Capstone project.
-				Currently in the Full Stack Web Development promgram with Lambda School,
+				Currently in the Full Stack Web Development program with Lambda School,
 				which has been a awesome experience thus far. I am seeking employment
 				and I am sure that I would be a great addition to any team that could use my skillsets,
 				and my drive to learn! </br></br>I reside
 				in Boise Idaho but I am able to move and travel freely!
-
 			</p>
+</div>
+
 		</article>
 			<!--work-->
 		<article data-match="2" id="work" class="two info">
@@ -70,14 +72,14 @@
 					<h3 class="a-2">click next to cycle through</h3>
 			<div id="p1-work">
 			<h3>Before</h3>
-			<p>Prior to finding my love in coding and development my career
+			<p class="p-info">Prior to finding my love in coding and development my career
 				path was in construction where I did a little of
 				everything for about 15 years,
 				during that time I played many roles
 				from being a laborer to being the Superintendent on
 				on large commercial jobs. That all took a toll on my body. </p>
 			<h3>Now</h3>
-			<p> I now am on a different path which I am very confident in my
+			<p class="p-info"> I now am on a different path which I am very confident in my
 				abbilities to create great things. </br>
 				I have several small projects on
 				<a href="https://codepen.io/MickeyG">Codepen</a>
@@ -86,72 +88,121 @@
 			few projects as well. Click the next button on top to get a short description and
 			an image of some projects each will have a direct link to the source code</p>
 			</div>
-			<div class="slideshow">
+			<div id="slides">
 				<div id="p1" class="slide">
-					<div><img class="imag" src = 'images/0.PNG' alt="pic"></div>
-					<div class="explain"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-						deserunt dolorum
-						fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-						reprehenderit soluta?
-                </p>
-					</div></div>
+					<div class="pen">
+						<p class="codepen" data-height="325" data-theme-id="dark" data-default-tab="js,result"
+						   data-user="MickeyG" data-slug-hash="WNedpBb" data-editable="true" style="height: 400px;
+						    box-sizing: border-box; display: flex; align-items: center; justify-content: center;
+						     border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="100X50 Drums">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/WNedpBb">
+  100X50 Drums</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+						</p>
+						<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
+				</div>
 				<div id="p2" class="slide">
-					<div> <img class="imag" src = 'images/1.PNG' alt="pic"></div>
-					<div class="explain"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                        deserunt dolorum
-                        fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                        reprehenderit soluta?
-					</p></div></div>
+				<div class="pen">
+					<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result"
+					   data-user="MickeyG" data-slug-hash="mdbMjZa" data-editable="true" style="height: 400px; box-sizing: border-box;
+					   display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0;
+					    padding: 1em;" data-pen-title="poolBalls W/Out images">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/mdbMjZa">
+  poolBalls W/Out images</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+				</div>
+				</div>
 				<div id="p3" class="slide">
-					<div><img class="imag" src = 'images/2.PNG' alt="pic"></div>
-					<div class="explain"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                       deserunt dolorum
-                       fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                       reprehenderit soluta?
-					</p> </div></div>
+				<div class="pen">
+					<p class="codepen" data-height="399" data-theme-id="dark" data-default-tab="js,result"
+					   data-user="MickeyG" data-slug-hash="GRKdPgZ" data-editable="true" style="height: 399px; box-sizing: border-box;
+					    display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0;
+					     padding: 1em;" data-pen-title="waterRippleEffect">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/GRKdPgZ">
+  waterRippleEffect</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+				</div>
+				</div>
 				<div id="p4" class="slide">
-					<div><img class="imag" src = 'images/3.PNG' alt="pic"></div>
-					<div class="explain"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquid
-						aut beatae, dicta doloribus eos expedita, explicabo fugiat incidunt natus numquam
-						quisquam quod recusandae reiciendis repellendus, sequi suscipit voluptas!</p></div></div>
+					<div class="pen">
+						<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result"
+						   data-user="MickeyG" data-slug-hash="WqRodR" data-editable="true" style="height: 265px; box-sizing: border-box;
+						    display: flex; align-items: center; justify-content: center; border: 2px solid;
+						     margin: 1em 0; padding: 1em;" data-pen-title="A Fruit Tree/skittleTree?">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/WqRodR">
+  A Fruit Tree/skittleTree?</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+						</p>
+						<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
+				</div>
 				<div id="p5" class="slide">
-					<div><img class="imag" src = 'images/4.PNG' alt="pic"></div>
-					<div class="explain"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                        deserunt dolorum
-                        fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                        reprehenderit soluta?
-					</p></div></div>
+					<div class="pen">
+						<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result"
+						   data-user="MickeyG" data-slug-hash="PvxoMa" data-editable="true" style="height: 265px; box-sizing: border-box;
+						   display: flex; align-items: center; justify-content: center; border: 2px solid;
+						   margin: 1em 0; padding: 1em;" data-pen-title="cpc-spaceship ">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/PvxoMa">
+  cpc-spaceship </a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+						</p>
+						<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
+				</div>
 				<div id="p6" class="slide">
-					<div><img class="imag" src = 'images/5.PNG' alt="pic"></div>
-					<div class="explain"><p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                        deserunt dolorum
-                        fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                        reprehenderit soluta?
-					</p></div></div>
+					<div class="pen">
+						<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result"
+						   data-user="MickeyG" data-slug-hash="OYEede" data-editable="true" style="height: 265px; box-sizing: border-box;
+						   display: flex; align-items: center; justify-content: center; border: 2px solid;
+						    margin: 1em 0; padding: 1em;" data-pen-title="orbiting   planets">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/OYEede">
+  orbiting   planets</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+						</p>
+						<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
+				</div>
 				<div id="p7" class="slide">
-					<div><img class="imag" src = 'images/6.PNG' alt="pic"></div>
-					<div class="explain"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                        deserunt dolorum
-                        fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                        reprehenderit soluta?
-					</p></div></div>
+					<div class="pen">
+					<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js,result"
+					   data-user="MickeyG" data-slug-hash="yWbPoe" data-editable="true" style="height: 400px; box-sizing: border-box;
+					    display: flex; align-items: center; justify-content: center; border: 2px solid;
+					    margin: 1em 0; padding: 1em;" data-pen-title="cpc-gravity  Pulled-In">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/yWbPoe">
+  cpc-gravity  Pulled-In</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
+				</div>
 				<div id="p8" class="slide">
-					<div><img class="imag" src = 'images/7.PNG' alt="pic"></div>
-					<div class="explain"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores autem blanditiis deleniti
-                        deserunt dolorum
-                        fugit illum itaque, minima molestiae necessitatibus perspiciatis possimus quia quidem quis quisquam quo
-                        reprehenderit soluta?
-					</p></div></div>
+					<div class="pen">
+						<p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="css,result"
+						   data-user="MickeyG" data-slug-hash="pBwdxQ" data-editable="true" style="height: 265px; box-sizing: border-box;
+						   display: flex; align-items: center; justify-content: center; border: 2px solid;
+						   margin: 1em 0; padding: 1em;" data-pen-title="FizzBuzzChallenge#cpc-fizzbuzz">
+  <span>See the Pen <a href="https://codepen.io/MickeyG/pen/pBwdxQ">
+  FizzBuzzChallenge#cpc-fizzbuzz</a> by MG (<a href="https://codepen.io/MickeyG">@MickeyG</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+						</p>
+						<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+					</div>
 			</div>
 
                         	<h3 class="a-2-bottom">click next to cycle through</h3>
+			</div>
 		</article>
 
 		<article data-match="3" id="about" class="three info">
-			<button class="close">X</button>
+
 			<h2 class="a-2">About</h2>
 			<span class="img-article img-about"></span>
-			<p>I am a single father of a beatiful young lady
+			<p class="p-info">I am a single father of a beatiful young lady
 				that means everything to me. She recently
 				graduated and moved on to college to create
 				her new path to life. This leaves me alot of
@@ -165,14 +216,15 @@
 		</article>
 
 		<article data-match="4" id="contact" class="four info">
-			<button class="close">X</button>
+
 			<h2 class="a-2">Contact</h2>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr1QMAU4DjXp4ZPYdYmdsi1URQI40I9tOYssS66DAHHOCF-g/viewform?embedded=true"
-					width="400" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 		</article>
 	</div>
+	</div>
+	</section>
 </div>
-</section>
+
 	<div class="icon-wrapper">
 	<ul class="icons">
 		<li><a href="https://twitter.com/M_Groff"><img src="images/tw.png" width="40" height="40"></a></li>
@@ -184,7 +236,8 @@
 	</ul>
 
 </div>
- </div>
+
+
     <script src="main.js"></script>
 
 </body>

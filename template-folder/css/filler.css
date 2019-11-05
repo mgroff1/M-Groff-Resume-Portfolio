@@ -5,10 +5,11 @@
     display:none;
     min-height: 100vh;
     width:100vw;
-    height:100vh;
+    height:100%;
     background:rgba(0,0,0,.3);
     z-index: 3;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y:scroll;
     bottom:0;
     /*margin-top:10vh;*/
 }
@@ -38,5 +39,131 @@ button.next{
 
 }
 
+.img-intro{
+    top:0;
+    position: relative;
+
+}
+#intro::after {
+    content: "";
+    background: url("../images/1.JPG");
+    width: 560px;
+    height: 398px;
+    opacity: 0.55;
+    top: -40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat:no-repeat;
+    background-size:100%;
+    position: absolute;
+    z-index: -1;
+    background-position:top;
+    transform:scale(.7);
+
+}
+
+.info{
+    height:auto;
+    overflow-y: visible;
+}
+
+#intro{
+    position: absolute;
+    height:100%;
+    top:0;
+}
+
+.intro-container{
+    margin:0;
+    padding:0;
+
+}
+
+.one{
+    display:inline;
+}
+
+#slides{
+    display: flex;
+
+}
 
 
+#p1{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p2{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p3{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p4{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p5{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p6{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p7{
+    display:flex;
+    /*flex-direction: column;*/
+
+}
+
+#p8{
+    display:flex;
+
+}
+
+.slide{
+    position: absolute;
+    justify-content: space-evenly;
+    width:80vw;
+    height:50vh;
+}
+
+.img-cont{
+    position: relative;
+    width:30vw;
+    height:100%;
+}
+
+.explain{
+    position:relative;
+    width:50vw;
+}
+
+.pen{
+    position:absolute;
+    width:75vw;
+    height:70vh;
+}
+/*.slide{*/
+/*   */
+/*    display:none;*/
+/*  */
+
+/*    max-height:60vh;*/
+/*}*/

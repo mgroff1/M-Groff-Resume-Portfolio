@@ -1,18 +1,18 @@
 
 paging();
 var j=0;
-var page =[$('#p1'),$('#p2'),$('#p3'),$('#p4'),$('#p5'),$('#p6'),$('#p7'),$('#p8')];
+var page =["a",$('#p1'),$('#p2'),$('#p3'),$('#p4'),$('#p5'),$('#p6'),$('#p7'),$('#p8')];
 function paging(){
     $(".next").on('click',next);
 }
 function next(){
-    $('#p1-work').hide("fade", 500);
-    j=j+1;
-
-    $(page[j-1]).hide( "slide", { direction: "up"  }, 500 );
+    $('#p1-work').hide("fade");
+   j=j+1;
+    // $(page[j-1]).hide( "slide", { direction: "up"  }, 500 );
+    $(page[j-1]).hide("fade",1000);
     for(let i =0;i<1;i++){
         console.log(page[j]);
-        $(page[j]).show( "slide", { direction: "up"  }, 500 );
+        $(page[j]).show("fade",1000);
         if(j===8){
             j=0;
         }
@@ -58,7 +58,7 @@ contain.show( "slide", { direction: "up"  }, 500 );
         el.hide( "slide", { direction: "down"  }, 500 );
     });
 
-    var clicked = $(this);
+    let clicked = $(this);
     for(let i =0; i < 4; i++){
 
         if(clicked.data("match") === arr[i].data("match")){
